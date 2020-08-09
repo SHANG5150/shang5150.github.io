@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-excerpt_separator: <!--more-->
 ---
 
 # Welcome
