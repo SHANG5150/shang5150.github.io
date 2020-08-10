@@ -1,12 +1,4 @@
-# Index page
-
-My blog posts :
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
+---
+layout: home
+title: Blog by Shang
+---
