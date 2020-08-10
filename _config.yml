@@ -3,7 +3,7 @@ author:
   name: Shang-Ping Wang
   email: f51509891@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  紀錄和分享在遊戲軟體開發路上的見聞。
+  記錄與分享在遊戲軟體開發路上的見聞。
 show_excerpts: true # set to true to show excerpts on the homepage
 paginate: 5
 paginate_path: "posts/page:num/"
