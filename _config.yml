@@ -3,7 +3,7 @@ author:
   name: Shang-Ping Wang
   email: f51509891@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  ¬ö¿ı©M¤À¨É¦b¹CÀ¸³nÅé¶}µo¸ô¤Wªº¨£»D¡C
+  ç´€éŒ„å’Œåˆ†äº«åœ¨éŠæˆ²è»Ÿé«”é–‹ç™¼è·¯ä¸Šçš„è¦‹èã€‚
 show_excerpts: true # set to true to show excerpts on the homepage
 paginate: 5
 
@@ -15,7 +15,7 @@ minima:
   # generate social links in footer
   social_links:
     # twitter: jekyllrb
-    github:  SHANG5150
+    github: SHANG5150
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
