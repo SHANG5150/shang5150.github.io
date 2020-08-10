@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me
+title: About
 ---
 
 ![Headshot of Shang](/assets/img/headshot.png)
