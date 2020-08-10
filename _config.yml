@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "show_excerpts:"
   紀錄和分享在遊戲軟體開發路上的見聞。
 show_excerpts: true # set to true to show excerpts on the homepage
 paginate: 5
-paginate_path: posts/page:num/
+paginate_path: "posts/page:num/""
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -57,4 +57,3 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
- - jekyll-paginate
