@@ -1,3 +1,8 @@
+---
+layout: post
+title: 說明解決 Excel 讀取用 .NET 輸出的 CSV 檔案出現亂碼的狀況
+---
+
 # 說明解決 Excel 讀取用 .NET 輸出的 CSV 檔案出現亂碼的狀況。
 
 在 Windows 作業系統上，Excel 開啟 CSV 檔案，會先判斷檔首是否有 UTF-8 的 BOM 記號來判斷是否使用 UTF-8 來解碼文件內容。如果檔首沒有 UTF-8 BOM 記號，則改用當前 Windows 作業系統的 ANSI 來解碼。所以 CSV 檔案用 UTF-8 編碼儲存，但沒有加上用來標記 UTF-8 編碼文件的 BOM 記號，就會造成 Excel 開啟 UTF-8 編碼的 CSV 文件顯示亂碼。
