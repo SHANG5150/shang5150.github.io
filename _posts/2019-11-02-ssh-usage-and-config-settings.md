@@ -39,10 +39,10 @@ $ cat /var/log/auth.log | cut -d' ' -f1,2 |uniq -c
 
 設定的步驟順序如下 :
 
-1. [在 Client 產生 RSA Public Key 以及 Private Key](#在-Client-產生-RSA-Public-Key-以及-Private-Key)
-2. [將 Client 的 Public Key 上傳到 Server](#將-Client-的-Public-Key-上傳到-Server)
-3. [將 Server 端的密碼驗證登入關閉](#將-Server-端的密碼驗證登入關閉)
-4. [重新啟動 Server 的 sshd Service](#重新啟動-Server-的-sshd-Service)
+1. [在 Client 產生 RSA Public Key 以及 Private Key](#在-client-產生-rsa-public-key-以及-private-key)
+2. [將 Client 的 Public Key 上傳到 Server](#將-client-的-public-key-上傳到-server)
+3. [將 Server 端的密碼驗證登入關閉](#將-server-端的密碼驗證登入關閉)
+4. [重新啟動 Server 的 sshd Service](#重新啟動-server-的-sshd-service)
 
 #### 在 Client 產生  RSA Public Key 以及 Private Key
 

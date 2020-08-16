@@ -43,8 +43,8 @@ File.WriteAllText("Data.csv", "資料一,資料二,資料三", encoding);
 
 ### 指定 UTF-8 Encoding 的方法有兩個 :
 
-1. [自己建立 System.Text.UTF8Encoding 物件](#自己建立-System.Text.UTF8Encoding-物件)
-2. [使用 System.Text.Encoding.UTF8 Property](#使用-System.Text.Encoding.UTF8-Property)
+1. [自己建立 System.Text.UTF8Encoding 物件](#自己建立-system.text.utf8encoding-物件)
+2. [使用 System.Text.Encoding.UTF8 Property](#使用-system.text.encoding.utf8-property)
 
 #### 自己建立 System.Text.UTF8Encoding 物件
 
