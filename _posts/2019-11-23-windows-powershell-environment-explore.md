@@ -18,7 +18,7 @@ PowerShell 的開啟入口有以下幾種方式 :
 3. 開啟檔案總管，切換到預期使用 PowerShell 工作的目錄。點選左上角 [檔案]->[開啟 Windows PowerShell]。
 4. 使用 PowerShell ISE。PowerShell ISE 是 PowerShell 的整合環境，可編輯多行指令與提供相關便利功能。
 
-# 命令補完
+### 命令補完
 
 PowerShell 提供 [Tab] 和 IntelliSense 兩種命令補完方法。
 
