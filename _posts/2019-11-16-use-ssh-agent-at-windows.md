@@ -5,6 +5,8 @@ title: 在 Windows 使用 SSH Agent
 
 ssh-agent 用來儲存 Private key 給之後使用 ssh 登入遠端機器時使用。避免經常需要切換 ssh 或是使用自動化腳本時，一再要求輸入密碼的麻煩。
 
+<!--more-->
+
 ### Windows 使用 ssh-agent 前的設定
 
 在 Windows 10 (1903) 自帶的 OpenSSH 套件裡， ssh-agent 有 bug，而且遲遲沒有更新到最新版 OpenSSH。所以如果要使用 ssh-agent 則需要自行安裝最新版 OpenSSH，並手動把環境變數 Path 中的自帶 OpenSSH 路徑移除。

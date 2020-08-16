@@ -5,6 +5,8 @@ title: PowerShell 資料輸出
 
 PowerShell 預設會把物件經過格式化後，輸出到 Console 或 PowerShell ISE 等 Host programe 讓使用者查看執行結果。這裡紀錄輸出流程和方法。
 
+<!--more-->
+
 ### 命令輸出流程
 
 PowerShell 命令的輸出流程如下 :
