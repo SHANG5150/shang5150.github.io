@@ -1,9 +1,7 @@
 ---
 layout: post
-title: 使用 SSH 與 Ubuntu 連線設定
+title: 在 Windows 使用 SSH Agent
 ---
-
-### 在 Windows 使用 SSH Agent
 
 ssh-agent 用來儲存 Private key 給之後使用 ssh 登入遠端機器時使用。避免經常需要切換 ssh 或是使用自動化腳本時，一再要求輸入密碼的麻煩。
 
