@@ -7,7 +7,7 @@ title: 說明解決 Excel 讀取用 .NET 輸出的 CSV 檔案出現亂碼的狀�
 
 <!--more-->
 
-# 使用 System.IO.StreamWriter 物件輸出 CSV 檔案
+### 使用 System.IO.StreamWriter 物件輸出 CSV 檔案
 
 建立 ```StreamWriter``` 物件時，如果沒有在 ```constructor``` 上指定 encoding，內部實作預設會使用 internal 的 UTF8NoBOM 做為 encoding 選項。UTF8NoBOM 的 encoding 不適合建立能讓 Excel 辨識的 UTF-8 編碼內容。所以需要明確指定帶有 BOM 記號的 UTF-8 encoding。
 
@@ -22,7 +22,7 @@ using (var writer = new StreamWriter("Data.csv", false,  encoding))
 }
 ```
 
-# 使用 System.IO.File.WriteAllText() 方法輸出 CSV 檔案
+### 使用 System.IO.File.WriteAllText() 方法輸出 CSV 檔案
 
 File.WriteAllText() 方法有兩個 Overloading :
 
@@ -41,12 +41,12 @@ Encoding encoding = new UTF8Encoding(true);
 File.WriteAllText("Data.csv", "資料一,資料二,資料三", encoding);
 ```
 
-# 指定 UTF-8 Encoding 的方法有兩個 :
+### 指定 UTF-8 Encoding 的方法有兩個 :
 
-1. 自己建立 System.Text.UTF8Encoding 物件
-2. 使用 System.Text.Encoding.UTF8 Property
+1. [自己建立 System.Text.UTF8Encoding 物件](#自己建立-System.Text.UTF8Encoding-物件)
+2. [使用 System.Text.Encoding.UTF8 Property](#使用-System.Text.Encoding.UTF8-Property)
 
-## 自己建立 System.Text.UTF8Encoding 物件
+#### 自己建立 System.Text.UTF8Encoding 物件
 
 UTF8Encoding 類別有三個 Constructor
 
@@ -60,5 +60,5 @@ public UTF8Encoding(bool encoderShouldEmitUTF8Identifier, bool  throwOnInvalidBy
 
 使用 UTF8Encoding 物件做為輸出 CSV 文件的解碼，應使用第二或第三個 constructor 並明確指定 encoderShouldEmitUTF8Identifier 為 true，讓編碼時加入 UTF-8 的 BOM 記號。
 
-## 使用 System.Text.Encoding.UTF8 Property
+#### 使用 System.Text.Encoding.UTF8 Property
 Encoding.UTF8 Property 內部實作建立了 UTF8Encoding ，並指定 encoderShouldEmitUTF8Identifier: true，因此使用 Encoding.UTF8 Property 做為編碼選項，能夠輸出帶有 BOM 記號的 UTF-8 CSV 文件。
