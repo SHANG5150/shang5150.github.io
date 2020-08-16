@@ -44,7 +44,7 @@ $ cat /var/log/auth.log | cut -d' ' -f1,2 |uniq -c
 3. [將 Server 端的密碼驗證登入關閉](#將-server-端的密碼驗證登入關閉)
 4. [重新啟動 Server 的 sshd Service](#重新啟動-server-的-sshd-service)
 
-#### 在 Client 產生  RSA Public Key 以及 Private Key
+#### 在 Client 產生 RSA Public Key 以及 Private Key
 
 如果已經有產生過 RSA Key 的話，也可以直接拿已經建立好的 Key 使用。
 
@@ -62,9 +62,11 @@ Enter same passphrase again:    # 重複驗證輸入的 Passphrase，同樣按�
 
 如果有設定 RSA Key 的 Passphrase，可以在 Key 外流的時候多一層防護。但是在每次登入時，都會詢問 Key 的 Passphrase。需要另外使用 ssh-agent 來另外管理 Keys。
 
-#### 將 Public Key 導入預期要用來登入的 User 的 ~/.ssh/authorized_keys 檔案
+#### 將 Client 的 Public Key 上傳到 Server
 
 如果 Client 是在 Linux 系統下，會有現成的 ssh-copy-id 可以處理這件事。但在 Windows 底下還是得自己處理。
+
+將 Public Key 導入預期要用來登入的 User 的 ~/.ssh/authorized_keys 檔案 :
 
 ```
 # 先把 Public Key 從 Client 複製到 Server 上。
