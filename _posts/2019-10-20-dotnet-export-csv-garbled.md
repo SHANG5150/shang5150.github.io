@@ -13,7 +13,7 @@ title: 說明解決 Excel 讀取用 .NET 輸出的 CSV 檔案出現亂碼的狀�
 
 ```cs
 Encoding encoding = Encoding.UTF8;
-或是
+// 或是
 Encoding encoding = new UTF8Encoding(true);
 
 using (var writer = new StreamWriter("Data.csv", false,  encoding))
@@ -35,7 +35,7 @@ public static void WriteAllText(string path, string contents, Encoding encoding)
 
 ```cs
 Encoding encoding = Encoding.UTF8;
-或是
+// 或是
 Encoding encoding = new UTF8Encoding(true);
 
 File.WriteAllText("Data.csv", "資料一,資料二,資料三", encoding);
