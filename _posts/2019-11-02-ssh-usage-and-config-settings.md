@@ -135,7 +135,7 @@ $ sudo service ssh restart
 
 一般便宜家用路由器有提供 NAT Port Forwarding 功能的也滿街都是了。直接使用路由器的 Web GUI 進行設定即可。
 
-![nat-port-forwarding-settings](/assets/img/post/2019-11-02-ssh-usage-and-config-settings/nat-port-forwarding-settings.png)
+![nat-port-forwarding-settings](/assets/img/post/2019/11/02/ssh-usage-and-config-settings/nat-port-forwarding-settings.png)
 
 設定好 Port Forwarding 之後，使用 SSH Client 就需要明確加入指定 Port 號碼的選項進行連線。
 
