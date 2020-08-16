@@ -5,9 +5,9 @@ title: 使用 SSH 與 Ubuntu 連線設定
 
 在安裝好 Ubuntu 之後，預設已經安裝並啟用了 SSH 作為遠端連線工具。以下紀錄一些使用 SSH 連線的方法和相關設定。
 
-使用 SSH Client 連線到 SSH Server 有數種方法，因為剛安裝好的 Ubuntu 預設啟用了 SSH Server，並允許使用密碼當作登入驗證方式。所以在 Ubuntu 安裝好，並確認能夠連上網路後，就能夠用 SSH Client 連線登入 Server，不需要對 SSH Server 做其它設定。
-
 <!--more-->
+
+使用 SSH Client 連線到 SSH Server 有數種方法，因為剛安裝好的 Ubuntu 預設啟用了 SSH Server，並允許使用密碼當作登入驗證方式。所以在 Ubuntu 安裝好，並確認能夠連上網路後，就能夠用 SSH Client 連線登入 Server，不需要對 SSH Server 做其它設定。
 
 ### 使用密碼驗證的方式透過 SSH Client 連線登入 SSH Server
 
