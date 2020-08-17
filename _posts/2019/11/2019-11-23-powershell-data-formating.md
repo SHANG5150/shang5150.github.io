@@ -9,13 +9,13 @@ title: PowerShell 資料格式化
 
 ### 物件資料自動格式化
 
-PowerShell command 輸出的 Object，會在 Pipeline 的最末端傳遞給 Out-Default。預設 Out-Default 會將物件轉交給 Out-Host。而 Out-Host 會將 Object 轉入格式化流程，接著再將格式化後的資料送到 Host programe 進行顯示。
+PowerShell command 輸出的 Object，會在 Pipeline 的最末端傳遞給 ```Out-Default```。預設 ```Out-Default``` 會將物件轉交給 ```Out-Host```。而 ```Out-Host``` 會將 Object 轉入格式化流程，接著再將格式化後的資料送到 Host programe 進行顯示。
 
-Note: 在 PowerShell 中，以 Out 開頭的指令都不具備格式化功能，也都會觸發自動格式化流程。參考 Help Out-Host 的備註說明。
+Note: 在 PowerShell 中，以 Out 開頭的指令都不具備格式化功能，也都會觸發自動格式化流程。參考 ```Help Out-Host``` 的備註說明。
 
 ### 預設格式化規則參照文件
 
-PowerShell 預設在安裝目錄 ($PSHOME) 底下提供了兩種類型的 ```.ps1.xml``` 文件。
+PowerShell 預設在安裝目錄 (```$PSHOME```) 底下提供了兩種類型的 ```.ps1.xml``` 文件。
 
 * format.ps1xml 文件
   命名中含有 format 的 ps1.xml 文件，提供物件的格式化規則。
@@ -37,7 +37,7 @@ PowerShell 預設在安裝目錄 ($PSHOME) 底下提供了兩種類型的 ```.ps
 
 ### 查找預設格式化規則
 
-PowerShell 預設在安裝目錄 ($PSHOME) 底下提供了許多的預設格式化規則文件。如果想查詢命令輸出的物件是否有提供預設格式。可以用下面的方法查詢。
+PowerShell 預設在安裝目錄 (```$PSHOME```) 底下提供了許多的預設格式化規則文件。如果想查詢命令輸出的物件是否有提供預設格式。可以用下面的方法查詢。
 
 ```PowerShell
 # 以 Get-Service 為例，先查詢 Get-Service 的 Output 物件類別
@@ -141,7 +141,7 @@ Calculator
 
 ### Select-Object
 
-Select-Object 的物件送到 Out-Host 時，也會觸發格式化流程。
+```Select-Object``` 的物件送到 ```Out-Host``` 時，也會觸發格式化流程。
 
 ```PowerShell
 # Select-Object 對照組

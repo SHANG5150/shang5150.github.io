@@ -235,11 +235,11 @@ Error array 的 size 由 ```$MaximumErrorCount``` 控制。
 
 ### Environment Variables
 
-PowerShell 的 Env: Drive 提供環境變數的設置。與 Variable: Drive 存放的變數有些差異。
+PowerShell 的 ```Env: Drive``` 提供環境變數的設置。與 ```Variable: Drive``` 存放的變數有些差異。
 
-* 與 Variable: 的變數有效範圍不同。
+* 與 ```Variable:``` 的變數有效範圍不同。
   在 function 內部變更境變數的內容，在回到 function 的 call stack 後仍然留存，行為與 Global variable 相似。
-* 統一使用 System.Collections.DictionaryEntry 類別作為容器。
+* 統一使用 ```System.Collections.DictionaryEntry``` 類別作為容器。
   ```PowerShell
   # 確認方法
   PS > Get-Item env:* | Get-Member

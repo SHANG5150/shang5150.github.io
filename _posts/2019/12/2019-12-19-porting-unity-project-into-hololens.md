@@ -3,7 +3,7 @@ layout: post
 title: 將 Unity 專案 Porting 到 HoloLens 的流程與設定
 ---
 
-工作上愈到需要把 Unity 上製作給 Vive Focus 使用的的 Prototype 移植到 HoloLens 進行 Demo 的需求。以下紀錄 HoloLens 的設定和移植遇到的問題。
+工作上遇到需要把 Unity 上製作給 Vive Focus 使用的 Prototype 移植到 HoloLens 做 Demo 的需求。以下記錄 HoloLens 的設定和移植遇到的問題。
 
 <!--more-->
 
@@ -75,10 +75,10 @@ HRP 提供 Unity Remote Play 的功能，可以避免每次要在機器裡面測
   ![diagnostics-profile](/assets/img/post/2019/12/19/diagnostics-profile.png)
   Enable Diagnostics System : False
 * 設定所有需要接收互動事件的 UGUI Canvas
-  點選 Canvas 上的 [Convert to MRTK Canvas] 按鈕
+  點選 Canvas 上的 [Convert to MRTK Canvas] 按鈕 : 
   ![convert-to-mrtk-canvas](/assets/img/post/2019/12/19/convert-to-mrtk-canvas.png)
   掛上 NearInteractionTouchableUnityUI Component。
-  將 [Event to Receive] Property 設為 Pointer
+  將 [Event to Receive] Property 設為 Pointer :
   ![set-event-to-reveive-as-pointer](/assets/img/post/2019/12/19/set-event-to-reveive-as-pointer.png)
 
 ### Build Project

@@ -77,7 +77,7 @@ PS > help help -Online
 PS > help help -ShowWindow
 ```
 
-使用 ```-ShowWindow``` 選項開啟 help 文件，可使用 Get-Help 內嵌的 GUI 搜尋文件內容，或使用設定介面過濾出想要看的說明區段。
+使用 ```-ShowWindow``` 選項開啟 help 文件，可使用 ```Get-Help``` 內嵌的 GUI 搜尋文件內容，或使用設定介面過濾出想要看的說明區段。
 
 ### 說明文件的語法 (SYNTAX) 判讀
 
@@ -121,8 +121,7 @@ PS > gcm    # Get-Command 的 alias
 PS > Get-Command ls | Format-List *
 ```
 
-Get-Command 與 Get-Help 不同，前者的資料來源是直接從 Command code(或執行檔) 取得，而 Get-Help 的資料來源是額外下載的文件檔案。
-
+```Get-Command``` 與 ```Get-Help``` 不同，前者的資料來源是直接從 Command code(或執行檔) 取得，而 ```Get-Help``` 的資料來源是額外下載的文件檔案。
 
 ### 查詢 function 內容
 

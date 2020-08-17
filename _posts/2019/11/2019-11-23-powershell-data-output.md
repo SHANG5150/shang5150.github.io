@@ -12,15 +12,15 @@ PowerShell 預設會把物件經過格式化後，輸出到 Console 或 PowerShe
 PowerShell 命令的輸出流程如下 :
 
 1. 主要的 Command 執行完畢，把輸出物件放入 Pipeline。
-2. 在 Pipeline 最後由 Out-Default 來接收物件。
-3. 在 Console 環境下，預設 Out-Defualt 會把物件傳送給 Out-Host。
-4. Out-Host 收到物件後，將物件交給格式化系統處理。
-5. 格式化系統依照格式化規則產生格式化指令，再傳送給 Out-Host。
-6. Out-Host 按照格式化指令輸出內容。
+2. 在 Pipeline 最後由 ```Out-Default``` 來接收物件。
+3. 在 Console 環境下，預設 ```Out-Defualt``` 會把物件傳送給 ```Out-Host```。
+4. ```Out-Host``` 收到物件後，將物件交給格式化系統處理。
+5. 格式化系統依照格式化規則產生格式化指令，再傳送給 ```Out-Host```。
+6. ```Out-Host``` 按照格式化指令輸出內容。
 
-Out-Default 不會做物件格式化或輸出，只是個 Placeholder。其目的是用來給客製化的 Out-Defualt function 或 cmdlet 使用。參照 help Out-Default。
+```Out-Default``` 不會做物件格式化或輸出，只是個 Placeholder。其目的是用來給客製化的 ```Out-Defualt``` function 或 cmdlet 使用。參照 ```help Out-Default```。
 
-以 Out 動詞開頭的命令不會格式化物件，只會依照格式化指令 Render Object 並送到特定的目的地。參照 help Out-Host。
+以 Out 動詞開頭的命令不會格式化物件，只會依照格式化指令 Render Object 並送到特定的目的地。參照 ```help Out-Host```。
 
 ### 查詢可用的輸出指令
 
@@ -136,4 +136,4 @@ PS > Get-Content result
 Message
 ```
 
-重導向運算子使用 Unicode encoding。需要指定其它 Encoding 時，可以用 Out-File 代替重導向運算子。
+重導向運算子使用 Unicode encoding。需要指定其它 Encoding 時，可以用 ```Out-File``` 代替重導向運算子。
