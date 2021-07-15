@@ -1,0 +1,396 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Git_Repos/shang5150.github.io",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "YRuBAEh6dFvxLoKC+WsiTEr+sYmCTnNjXtVotofounA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "53cDPdjyKTmYSaPMwcMYYJO/bYpeY21eGi/JWyVQBqE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/contact.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/contact.html",
+          "hash": "ty2GUvX9ZF+uMEN4+Dd0D8e6lmH67efQxuor5FPyd7o="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/dev_skill.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/dev_skill.html",
+          "hash": "OwDUlc0j9aEn/QwnmO1dWe54HVpmJmKCVgO4lFbV6h8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "le5LSy9hpcZR7WTp4xJ1X2UdOe6HJxaSgPhJxpHNGm8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/showcase.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/showcase.html",
+          "hash": "XVWix8tDs5sc9NmPk0HxSOTurWFoyyou3VZ7+OhvsGw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/side_project.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/side_project.html",
+          "hash": "/kNDFYbVAJFTlg7IPfJjMsB3XRKvt5abY7heb0pn0AA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "rhOwIeprJNx6lyCdOWeRMPAXk0zWb6niNsnLqi/Yoks="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/work_experience.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/work_experience.html",
+          "hash": "E0VfX7Y700cu54RsxCEPfyk07XynkFQyJtaw51PJuIs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/showcase/ar_textbook_01.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/showcase/ar_textbook_01.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/showcase/ar_textbook_02.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/showcase/ar_textbook_02.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/showcase/ar_textbook_03.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/showcase/ar_textbook_03.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/showcase/ar_textbook_04.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/showcase/ar_textbook_04.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/showcase/child_lab_01.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/showcase/child_lab_01.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/showcase/child_lab_02.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/showcase/child_lab_02.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/showcase/ttrd_01.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/showcase/ttrd_01.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/showcase/ttrd_02.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/showcase/ttrd_02.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/showcase/vollege_01.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/showcase/vollege_01.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/showcase/vollege_02.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/showcase/vollege_02.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/showcase/vollege_03.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/showcase/vollege_03.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/showcase/wb_01.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/showcase/wb_01.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/showcase/wb_02.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/showcase/wb_02.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/showcase/wb_03.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/showcase/wb_03.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/showcase/wb_04.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/showcase/wb_04.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/showcase/wom_rb_01.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/showcase/wom_rb_01.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/showcase/wom_rb_02.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/showcase/wom_rb_02.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/showcase/wom_rb_03.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/showcase/wom_rb_03.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/showcase/wom_rb_04.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/showcase/wom_rb_04.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "EAP+duVzaXo3dxCEwekGIZ7IrLgpBCURDohYcbwuqLY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "nj5VP9TbBsAJV3DhRWuXlGwC94Xr8vq8LGeu5BV9ulI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 8,
+          "skipped_file_count": 8
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
